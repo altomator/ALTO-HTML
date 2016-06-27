@@ -1,1 +1,451 @@
+@namespace h "http://www.w3.org/1999/xhtml";
+
+
+
+/*--------------------------- */
+
+body{
+    font-family : Georgia, serif;
+    line-height: 1.3em;
+    margin-left : 4%;
+    margin-right : 4%; 
+}
+
+
+  
+  
+/*------------- Liens ------------- */
+a {
+	text-decoration : none;
+	color: navy     
+}
+a:hover {
+	text-decoration : underline;
+}
+
+
+    
+   
+
+/*------------------------------- */
+
+/*------------ Textes */    
+
+p.comment {
+    font-family : sans-serif;
+    display: block;
+    font-size: 0.8em;
+    margin-bottom: 0;
+    margin-top: 0.25em;
+   color: rgb(100,100,100);
+    /*page-break-before: always*/
+    }
+
+p.TextBlock {
+    font-family : Georgia, serif;
+    display: block;
+    font-size: 1.em;
+    margin-bottom: 0;
+    margin-top: 1.5em;
+    /*page-break-before: always*/
+    }
+
+p.GraphicalElement, p.Illustration {
+   display: block;
+   margin: 1em;
+   padding-left: 5em;
+    }
+
+p.ComposedBlockDebut {
+   display: block;
+   margin: 1em;
+   margin-bottom: -1em;
+   margin-top: 1.5em;
+   padding-left: 5em;
+    }
+
+p.ComposedBlockFin {
+   display: block;
+   margin: 1em;
+    margin-bottom: 1.5em;
+    margin-top: 0em;
+   padding-left: 5em;
+    }
+
+/*------------ titre de niveau 1 */
+h1 {
+  font-family : Verdana, sans-serif;
+  font-weight: normal;
+  text-align: center; 
+  font-size : 120%;
+  line-height: 1.5em;
+  margin-bottom : 2em;
+  margin-top : 0em;
+  page-break-before: always
+}
+
+
+
+/*------------ titre de niveau 2 */
+h2 {
+  font-family : Verdana,  sans-serif;
+  font-weight: bold; 
+  color:#003864; 
+  border-bottom : solid 2px #E6EAF5;
+  font-size : 100%;
+  line-height: 1.25em;
+  width : 80%;
+  margin-bottom : 1em;
+  margin-top : 1em;
+  /* text-align: center; */
+}
+
+.titreTDM2 {
+  font-family : Verdana, sans-serif;
+  font-weight:normal;
+  font-size : 70%;
+  margin-bottom : 0.5em;
+  margin-top : 0em;
+  margin-left : 4em;
+}
+
+.partie {
+    text-align: center; 
+    width : 100%;
+    border-bottom : none;
+    page-break-after:always
+}
+
+/*------------ titre de niveau 3 */
+h3 {
+    font-family : Verdana, sans-serif;
+    font-weight: normal;
+    /* border-bottom: solid 2px #E6EAF5; */
+  
+    color:#003864;
+    display: block;
+    font-size: 100%;
+    margin-right: 0;
+    /* text-align: center; */
+    }
+    
+/*------------ titre de niveau 4 */
+h4 {
+    font-family : Verdana, sans-serif;
+    font-weight:normal;
+    display: block;
+    font-size: 90%;
+    margin-bottom: 0.1em;
+    margin-top: 0em;
+     color:#003864;
+    }
+ 
+/*------------ titre de niveau 5 */
+h5 {
+    font-family : Verdana,  serif;
+    font-weight: bold;
+    display: block;
+    font-size: 0.8em;
+    margin-bottom: 2em;
+    text-align: center
+    }
+
+/*------------ texte */
+
+
+/* mots Illegible : TYPE = illegible : rouge */ 
+.illegible {
+ background-color: #CC3300 ;
+}
+
+/* mots C : WC <= 0.5  : rose */
+.C {
+background-color : LightPink );
+}
+
+/* obsolète*/ 
+.illegibleBizarre {
+background-color: #9900FF;
+border-bottom : solid 2px #E6EAF5;
+color: rgb(256,256,256);
+font-weight: normal;
+/* border: solid 1px silver; */
+padding: 0 2pt;
+}
+
+/* zones déqualifiées : pub, tableau, etc. : gris */ 
+.CDq, .ABDq {
+background-color: #909090  ;
+}
+
+
+/* mots B : 0.5 - 0.99 :jaune */
+.B {
+background-color: Khaki ;
+}
+
+/* alerte */
+.alerte {
+  color: rgb(256,0,0)
+}
+
+/* titraille */
+.titre {
+background-color: rgb(0,0,0);
+font-weight: bold;
+color: white;
+padding: 0 8pt;
+font-family: Verdana, sans-serif;
+}
+
+
+.titraille1 {
+font-weight: bold;
+color: black;
+font-family: Verdana, sans-serif;
+font-size: 1.1em;
+padding: 0 10pt;
+}
+
+.titraille2 {
+font-weight: bold;
+color: black;
+font-family: Verdana, sans-serif;
+font-size: 1em;
+padding: 0 10pt;
+}
+
+.titrailleTDM {
+background-color: rgb(100,0,0);
+font-weight: bold;
+color: white;
+font-family: Verdana, sans-serif;
+font-size: 0.6em;
+padding: 0 5pt;
+}
+
+.titreTDM1, .titreTDM {
+  font-family : Verdana, sans-serif;
+  font-weight: normal;
+  font-size : 50%;
+  margin-bottom : 1em;
+  margin-top : 0em;
+  margin-left : 2em;
+}
+
+/* type de bloc */
+.typeBloc {
+background-color: rgb(0,0,0);
+font-weight: bold;
+color: white;
+padding: 0 2pt;
+font-family: Verdana, sans-serif;
+font-size : 50%;
+border: solid 1px silver; 
+}
+
+/* Notes de bdp */
+li {
+    margin-top: 0.5em
+   }
+   
+.nbp {
+    margin-top: 0.5em;
+    font-size: 0.9em;
+   }
+   
+.nbpHaut {
+    border-top : solid 1px #E6EAF5;
+    font-size: 0.9em;
+    margin-bottom: 1em;
+    margin-top: 2em;
+    margin-right: 5em
+            }
+            
+/* Typo */
+.petit {
+ /*font-variant: small-caps; 
+  text-transform: uppercase;*/
+  font-size: 70%;
+  padding-left: 2em
+}
+
+/* symbole de paragraphe */
+.tb {
+ /*font-variant: small-caps; 
+  text-transform: uppercase;*/
+  font-family : Verdana, sans-serif;
+  font-size: 70%;
+  padding: 1px;
+  background-color: rgb(220, 220, 220 );
+color: white
+}
+
+.cb {
+ /*font-variant: small-caps; 
+  text-transform: uppercase;*/
+  font-family : Verdana, sans-serif;
+  font-size: 70%;
+  padding: 1px;
+  background-color: rgb(105, 105, 105 );
+color: white
+}
+
+/* symbole d'élément graphique */
+.ge {
+  font-family : Verdana, sans-serif;
+  font-size: 50%;
+  padding: 1px;
+  background-color: #3399FF;
+  border: solid 1px silver; 
+  color: white
+}
+
+/* symbole d'élément illustration */
+.il {
+  font-family : Verdana, sans-serif;
+  font-size: 50%;
+  padding: 1px;
+  background-color: #333399;
+border: solid 1px silver; 
+  color: white
+}
+
+/* typo */
+.st {
+ /*font-variant: small-caps; 
+  text-transform: uppercase;*/
+  font-size: 80%;
+ padding: 1px;
+ background-color: rgb(220, 220, 220);
+ color: white
+}
+
+.ss {
+  font-family: Verdana, sans-serif;
+  font-style: normal;
+  font-weight: normal}
+
+.rm {
+  font-style:normal;font-weight:normal;color:black;
+  text-transform:none
+}
+
+span.sup {
+  font-size:0.7em;
+  vertical-align:30%;
+  line-height : 130%
+}
+   
+
+a.nav {
+    font-size:1.2em;
+ vertical-align:-5%;
+ color: grey
+}   
+
+/*------------ TAGS --------------- */
+.tagID {
+	font-size:75%;
+    color: red;
+}
+
+/*------------ TAGS : NE --------------- */
+.tagNEContent {
+	/* text-decoration : underline	;
+   font-weight: bold;*/
+   background-color: gray
+}
+
+.tagNEPContent {
+   background-color: Coral
+   
+}
+
+.tagNELContent {
+   background-color: CornflowerBlue  
+   /* text-shadow: Yellow  0 -1px ;*/
+}
+
+.tagNEOContent {
+   background-color: LemonChiffon
+}
+
+
+/*------------ TAGS : Role --------------- */
+.tagRoleContent {
+	color: BlueViolet     ;
+}
+
+/*------------ TAGS : Layout --------------- */
+.tagLayoutContent {
+	background-color:  LightYellow    ;
+}
+
+/*------------ TAGS : Structure --------------- */
+.tagStructureContent {
+	background-color: DarkSeaGreen ;
+}
+
+
+/*------------ TAGS : Other --------------- */
+.tagOtherContent  {
+	background-color:  DarkCyan   ;
+} 
+
+
+
+/*------------ TAGS : Alerts --------------- */
+p.tagPBContent  {
+	background-color:  DeepPink    ;
+} 
+
+ .tagPBContent {
+	color:  DeepPink    ;
+} 
+
+/*---------------------------------- */
+/*------------ GUI --------------- */
+/* ajuster la couleur de fond du formulaire, ne marche pas en IE < 9 */
+#illbut { background-color: rgb(176, 0, 0); }
+#wcbut { background-color: rgb(255, 255, 204); }
+#deqbut { background-color: rgba(153,	0,	255,0.5); }
+
+.normal {
+background-color: transparent;
+color: black;
+}
+
+
+/* mots Illegible : TYPE = illegible : rouge */ 
+.highlight_illegible {
+background-color: rgba(176,0,0,0.60); 
+/* border-bottom : solid 2px #E6EAF5;
+ color: rgb(256,256,256);
+font-weight: normal;
+border: solid 1px silver; 
+padding: 0 2pt;*/
+}
+
+/* mots B : 0.5 - 0.99 : jaune */
+.highlight_B {
+background-color: rgb(255, 255, 204);
+/*font-weight: normal;
+ border: solid 1px silver; 
+padding: 0 2pt; */
+}
+
+/* mots C : WC <= 0.5  : rose */
+.highlight_C {
+background-color: rgb(255,102,102);
+}
+
+/* zones déqualifiées : pub, tableau, etc. */ 
+.highlight_CDq {
+background-color: rgba(153,	0,	255,0.4);
+}
+.highlight_ABDq {
+background-color: rgba(153,	0,	255,0.8);
+}
+
 
