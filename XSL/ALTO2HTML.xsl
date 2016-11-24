@@ -19,7 +19,7 @@
          <xsl:text disable-output-escaping='yes'>&lt;meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8"/&gt;</xsl:text>      
          <xsl:text disable-output-escaping='yes'>&lt;link rel="stylesheet" href="..\..\..\CSS\stylesheet.css" type="text/css"/&gt;</xsl:text>
          
-         <title>Affichage des contenus ALTO selon le taux de confiance</title> 
+         <title>Affichage des contenus ALTO</title> 
    </head>
    <body>
      <xsl:apply-templates select="/alto:alto/alto:Layout/alto:Page"/>
