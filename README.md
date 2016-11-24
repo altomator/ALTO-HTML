@@ -2,11 +2,10 @@
 *Conversion of ALTO files (including tags) to HTML*
 
 ### Synopsis
-Newspapers from European digital librabries collections are part of the data set OLR’ed (Optical Layout Recognition) by the project Europeana Newspapers (www.europeana-newspapers.eu). The OLR refinement consists of the description of the structure of each issue and articles (spatial extent, title and subtitle, classification of content types) using the METS/ALTO formats.
+This script converts ALTO files (version 3.0 or higher) to HTML.
+It also renders the tags (logical, laoyout, semantic, etc.) which were introduced in ALTO v2.1 format. 
+See https://www.loc.gov/standards/alto/
 
-From each digital document is derived a set of bibliographical metadata (date of publication, title) and quantitative metadata related to content and layout (number of pages, articles, words, illustrations, etc.). Shell and XSLT or Perl scripts are used to extract some metadata from METS manifest or from ALTO files.
-
-Detailled presentation: [English](http://altomator.github.io/EN-data_mining/)
 
 ### Installation
 The script needs xalan-java.
