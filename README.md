@@ -3,14 +3,14 @@
 
 ### Synopsis
 This script converts ALTO files (version 3.0 or higher) to HTML.
-It also renders the tags (logical, laoyout, semantic, etc.) which were introduced in ALTO v2.1 format. 
+It also renders the tags (logical, layout, semantic, etc.) which were introduced in ALTO v2.1 format. 
 See https://www.loc.gov/standards/alto/
 
 
 ### Installation
 The script needs xalan-java.
 
-A Sample document is stored in the "DOCS" folder. 
+A sample document is stored in the "DOCS" folder. 
 
 
 #### XSLT
