@@ -2,7 +2,7 @@
 *Conversion of OCR ALTO files (including tags) to HTML*
 
 ### Synopsis
-This script converts ALTO files to HTML. It also renders the tags (logical, layout, semantic, etc.) which were introduced in ALTO v2.1 format. 
+This batch script converts ALTO files to HTML. It also renders the tags (logical, layout, semantic, etc.) which were introduced in ALTO v2.1 format. 
 See https://www.loc.gov/standards/alto/
 
 
