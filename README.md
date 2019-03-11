@@ -1,4 +1,4 @@
-# ALTO-HTML
+# ALTO2HTML
 *Conversion of XML ALTO files to HTML*
 
 ### Synopsis
